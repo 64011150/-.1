@@ -7,13 +7,13 @@ int main() {
 	float c;
 	c = a / b / b;
 		if (18.5 > c)
-			printf("น้ำหนักต่ำกว่าเกณฑ์");
+			printf("Underweight");
 		if (24.9 >= c >= 18.5)
-			printf("ปกติ");
+			printf("Normal");
 		if (29.9 >= c >= 25)
-			printf("สูงกว่ามาตรฐาน");
+			printf("Overweight");
 		if (c > 30)
-			printf("อ้วนเกินไป");
+			printf("Obese");
 
 			return 0;
 }
